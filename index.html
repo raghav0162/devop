@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html>
+                                <head>
+  <style>
+    /*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.header{
+  width: 100%;
+  height: 100%;
+  background-color: gray!important;
+}
+.navbar{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: black!important;
+}
+.navbar:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  opacity: .3s;
+  z-index: -1;
+  
+}
+.header:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: .3s;
+  z-index: -1;
+  background-color: #D5DFF0; 
+  
+}
+/* div */
+.header-extradiv{
+  width: 100%;
+  height: auto;
+  margin: 100px 0;
+  text-align: center;
+  background-color: #D5DFF0;
+}
+.extradiv{
+  background: #fff;
+  border:medium none;
+   padding: 50px!important;
+   border-radius:3px;
+   -webkit-transition: 0.3s;
+   -o-transition: 0.3s;
+   transition: 0.3s;
+  }
+
+.extra-div:hover{
+  -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+          box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+  -webkit-transform: translate(-30px);
+      -ms-transform: translate(-30px);
+          transform: translate(-30px);
+
+}
+  .extra-div h2{
+    font-size: 0.9rem;
+    margin: 40px 0 20px 0;
+    line-height: 1.2;
+    font-weight: bold;
+    word-spacing: 4px;
+  }
+.project-work{
+  margin: 100px 0;
+
+}
+.project-work h1{
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+.pricing{
+  width: 100%;
+  height: 100vh;
+  padding: 50px;
+  position: relative;
+}
+.pricing:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  opacity: .3s;
+  z-index: -1;
+  background: -o-linear-gradient(290deg, #16c9f6 55%,#fff 0%);
+  background: linear-gradient(160deg, #16c9f6 55%,#fff 0%);
+
+/*iski vajah se ye tilited huaa hua */
+}
+.contactus{
+  width: 100%;
+  height: 100vh;
+  padding: 80px 0;
+  position: relative;
+}
+.contactus:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  opacity: .3s;
+  z-index: -1;
+  background: -o-linear-gradient(290deg, #16c9f6 55%,#fff 0%);
+  background: linear-gradient(330deg, #16c9f6 55%,#fff 0%);
+
+
+}
+.newsletter{
+  width: 100%;
+  height: 100vh;
+  padding: 80px 0;
+  position: relative;
+  padding-right: 60%;
+}
+.money{
+  font-size: 40px;
+  line-height: 1;
+  color: #606060;
+}
+
+
+.card-header{
+  font-size: 1.6rem;
+  font-weight: bold;
+  background: #fff!important;
+  padding: 25px 0!important;
+}
+
+.card-body{
+  padding: 30px 0!important;
+}
+.card-body li{
+  margin:10px 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #606060
+}
+
+.card-footer{
+  background: white!important;
+  padding: 30px 0px!important;
+}
+
+
+
+.card-footer a{
+  border: 1px solid #50d1c0;
+  border-radius: 100px;
+  margin: 0 5px;
+  padding: 12px 35px;
+  outline: none;
+  color: #50d1c0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+}
+.card-footer a:hover{
+
+  color: #fff;
+  background: #50d1c0;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+          box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+
+.newsletter{
+  padding-top: 40PX;
+  padding-bottom: 40PX;
+}
+.card:hover{
+  -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+          box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+  -webkit-transform:translate3d( 20 10 10);
+          transform:translate3d( 20 10 10);
+}
+.formstyle{
+  padding-top: 40PX;
+  padding-bottom: 20PX;
+  width: 70%;
+  height: 60%;
+  padding: 50px;
+  position: relative;
+  background: linear-gradient(160deg, #16c9f6 55%,pink 0%);
+}
+.hello{
+  
+  border-radius: 80%;
+
+}
+
+.juk{
+  padding-top: -40PX;
+  padding-bottom: 40PX;
+  width: 100%;
+  height: -60%;
+  padding: 50px;
+  position: relative;
+  background-color: lightgray;
+}
+.hey{
+  padding-top: -40PX;
+  padding-bottom: 40PX;
+  width: 100%;
+  height: -60%;
+  padding: 50px;
+  position: relative;
+  background-color: gray;
+}
+li{
+  text-decoration: none;
+}
+
+.ourteam{
+  height: 700px;
+  padding-top: 40PX;
+  padding-bottom: 40PX;
+  width: 100%;
+}
+.contactus{
+  width: 100%;
+  height: 100vh;
+  padding: 50px 0;
+  position: relative;
+  margin-top: 30px;
+}
+
+/*****************footer
+*/
+.footersection{
+  width: 100%;
+  height: auto;
+  padding: 70px 0 20px 0;
+  background: #00abff;
+  position: relative;
+}
+.footersection{
+  color: black;
+}
+.footersectio li a{
+  font-size: 0.9rem;
+  line-height: 1.6;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: none;
+}
+#myBtn{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 99;
+  border: none;
+  color: #fff;
+  background: #00abff;
+  padding: 10px;
+  border-radius: 10px;
+}
+#myBtn:hover{
+  background: black;
+}
+@media(max-width: 768px;){
+  .nav-itemm{
+    text-align: center;
+  }
+  .card-second{
+    
+  }
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 40%;
+  width: 100%;
+
+  
+}
+
+.header-buttons a{
+  border: 1px solid #fff;
+  border-radius: 100px;
+  margin: 0 5px;
+  padding: 12px 35px;
+  padding-top: 2px;
+  color:  Granny Smith Apple;
+  font-size: 1rem;
+  font-weight:400;
+  line-height: 1.4;
+  text-align: center;
+}
+.header-buttons a:hover{
+  color: #50d1c0;
+  background: #fff;
+  text-decoration: none;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+</style>
+	                                      <title>hello hello</title>
+                                        <sc
+                                        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+                                               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	                                             <link rel="stylesheet" type="text/css" href="css/style.css">
+                                            	 <meta charset="utf-8">
+                                               <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Piedra&display=swap" rel="stylesheet">
+	<!--these are bootstrap links for responsiveness-->
+                                               <meta name="viewport" content="width=device-width, initial-scale=1">
+                                               <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="jquery.counterup.min.js"></script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous" >
+  
+</script>
+
+
+
+
+<
+
+
+                                               <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="jquery.counterup.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+ 
+                                </head>
+                                          <div class="header" >
+                                            <nav class="navbar navbar-expand-lg  fixed-top">
+  <a class="navbar-brand" href="#" style="color: white;">WEB DEVELOPER</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon" style="color: orange;">menu</span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" style="color: white;">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#servicediv" style="color: white;">Service</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#pricingdiv" style="color: white;">Prices</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#jukid"style="color: white;">AboutUs</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#contactid" style="color: white;">Contact</a>
+      </li>
+      
+      
+      
+    </ul>
+    
+  </div>
+</nav>
+  </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-JtQPj/3xub8oapVMaIijPNoM0DHoAtgh/gwFYuN5rik=" crossorigin="anony"></script>
+
+<div class="container" style="width: 100%; height: 40%;">
+  <img src=" https://image.shutterstock.com/image-illustration/mock-pc-screen-white-brick-260nw-240787048.jpg " alt="crazy background" style="width:78.5%;
+  height: 24%; clip-path: polygon( 100% 0%, 100% 75%, 50% 90%, 0 75%, 0 0);">
+  
+  <div class="centered"><div class="header-section">
+  <div class="basic">
+    <h1 class="font-weight-bold" style="color: #79B98D;">WE DEVELOP THE WEB</h1>
+    <h4 style="color: white;">think insideout of box</h4>
+    <div class="header-buttons">
+      
+      <a href="#" style="color: #79B98D;">About us</a>
+      <a href="#" style="color: #79B98D;">Contact</a>
+
+    </div>
+  </div>
+
+</div></div>
+</div>
+
+<!-- yhaa pe header over------------------------>
+
+
+
+
+
+
+
+
+
+<!--YHAA SE CODING KAREMGE NEW DIV JO APAN BOOTSTRAP SE ROW COLUMN GRID SE KARENNGE-->
+
+
+<section class="header-extradiv" id="mysection">
+  <div class="container">
+    <div class="row">
+      <div class=" extra-div col-lg-4 col-md-4 col-sm-12">
+        <a href="#">
+          <i class=" fa fa-4x fa-desktop"aria-hidden="true"></i>
+        </a>
+        <h3 style="color: black;">usable</h3>
+        <p style="color: black;">multiple time use and error solving troubleshooting through various methods thatn are practised many number of times</p>
+      </div>
+
+
+      <div class=" extra-div col-lg-4 col-md-4 col-sm-12">
+        <a href="#">
+          <i class=" fa fa-4x fa-trophy"aria-hidden="true"></i>
+        </a>
+        <h3 style="color: black;">crazy designs</h3>
+        <p style="color: black;">multiple time use and error solving troubleshooting through various methods thatn are practised many number of times and many more</p>
+      </div>
+
+
+
+      <div class=" extra-div col-lg-4 col-md-4 col-sm-12">
+        <a href="#">
+          <i class=" fa fa-4x fa-magic"aria-hidden="true"></i>
+        </a>
+        <h3 style="color: black;">modify</h3>
+        <p style="color: black;">multiple time use and error solving troubleshooting through various methods thatn are practised many number of times</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--YHAA SE CODING KAREMGE NEW DIV JO APAN BOOTSTRAP SE ROW COLUMN GRID SE KARENNGE-->
+
+
+
+
+<!-- ye whta do we offer vala-->
+
+
+<section class="serviceoffers" id="servicediv">
+  <div class="container headings text-center">
+    <h1 class="text-center font-weight-bold" style="color:black; ">ABILITIES</h1>
+    <p class="text-center" style="color: black;"> we czan do things a lot of things really like a llt a lot</p>
+  </div>
+
+<div class="container">
+  <div class="row d-flex">
+    <div class="col-lg-6  col-md-12 col-10 offset-1 offset-lg-0">
+    </div>
+    <div class="col-lg-6 col-md-12 col-12 servicediv">
+
+
+      
+    </div>
+      <div class="col-lg-4 col-md-4 col-10 offset-1 offset-lg-0">
+      <div class="names margin-3">
+        <h1 style="color: black;">HTML</h1>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 100%"> 93</div>
+        </div>
+      </div>
+</div>
+</div>
+<br>
+
+
+
+<div class="col-lg-4 col-md-4 col-10 offset-1 offset-lg-0">
+      <div class="names margin-3">
+        <h1 style="color: black;">CSS</h1>
+        <div class="progress width 75">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 100%"> 84</div>
+        </div>
+      </div>
+</div>
+
+<br>
+
+
+
+<div class="col-lg-4 col-md-4 col-10 offset-1 offset-lg-0">
+      <div class="names margin-3">
+        <h1 style="color: black;">JAVASCRIPT</h1>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width: 100%"> 73</div>
+        </div>
+      </div>
+</div>
+
+<br>
+
+
+<div class="col-lg-4 col-md-4 col-10 offset-1 offset-lg-0">
+      <div class="names margin-3">
+        <h1 style="color: black;">REACT</h1>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 100%"> 72</div>
+        </div>
+      </div>
+</div>
+
+<br>
+
+<div class="col-lg-4 col-md-4 col-10 offset-1 offset-lg-0">
+      <div class="names margin-3">
+        <h1 style="color: black;">NODE-JS</h1>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%"> 74</div>
+        </div>
+      </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6  col-md-12 col-10 offset-1 offset-lg-0">
+    </div>
+    <div class="col-lg-6 col-md-12 col-12 servicediv">
+
+<div class="formstyle">
+  <form name="forms" class="hello">
+    <h1>CALCULATE ON THE GO</h1>
+    <input type="text" name="gotit" id="gotitstyle">
+    <br>
+
+<input style="text-shadow: .2px .6px; height: 43px; border-radius: 30px; color: black;" type="button" value=" 1 " onclick="forms.gotit.value += '1'">
+<input style="text-shadow: .2px .6px; height: 43px;border-radius: 30px; color: black;" type="button" value=" 2 " onclick="forms.gotit.value += '2'">
+<input style="text-shadow: .2px .6px; height: 43px;border-radius: 30px; color: black;" type="button" value=" 3 " onclick="forms.gotit.value += '3'">
+<br>
+<input style="text-shadow: .2px .6px; height: 43px;border-radius: 30px; color: black;" type="button" value=" 4 " onclick="forms.gotit. value += '4'">
+<input style="text-shadow: .2px .6px; height: 43px;border-radius: 30px; color: black;" type="button" value=" 5 " onclick="forms.gotit.value += '5'">
+<input  style="text-shadow: .2px .6px; height: 43px;border-radius: 30px; color: black;" type="button" value=" 6 " onclick="forms.gotit.value += '6'">
+<br>
+
+<input style="text-shadow: .2px .6px; height: 43px;border-radius: 30px; color: black;" type="button" value="  7" onclick="forms.gotit.value += '7'">
+<input  style="text-shadow: .2px .6px; height: 43px;border-radius: 30px; color: black;" type="button" value=" 8 " onclick="forms.gotit.value += '8'">
+<input  style="text-shadow: .2px .6px; height: 43px;border-radius: 30px; color: black;"type="button" value=" 9 " onclick="forms.gotit.value += '9'">
+<br>
+
+<input style="text-shadow: .2px .6px; height: 43px;border-radius: 30px; color: black;" type="button" value=" + " onclick="forms.gotit.value += '+'">
+<input style="text-shadow: .2px .6px; height: 43px;border-radius: 30px; color: black;" type="button" value=" -" onclick="forms.gotit.value += '-'">
+<input style="text-shadow: .2px .6px; height: 43px;border-radius: 30px; color: black;" type="button" value=" * " onclick="forms.gotit.value += '*'">
+
+<br>
+<input  style="text-shadow: .2px .6px; height: 43px;border-radius: 30px;color: black;"type="button" value=" /  " onclick="forms.gotit.value += '/'">
+<input style="text-shadow: .2px .6px; height: 43px;border-radius: 30px;color: black;" type="button" value=" 0 " onclick="forms.gotit.value += '0'">
+
+<input style="text-shadow: .2px .6px; height: 43px;border-radius: 30px;color: black;"type="button" value=" = " onclick="forms.gotit.value = eval(forms.gotit.value) ">
+<br>
+
+
+<input  style="text-shadow: .2px .6px; height: 43px;border-radius: 30px;color: black;"type="button" value=" Clear all" onclick="forms.gotit.value = ''" id="clear">
+
+
+
+
+
+
+  </form>
+</div>
+
+
+
+      
+    </div>
+  </div>
+</div>
+
+
+  </section>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ye whta do we offer vala-->
+
+
+<section class="project-work" >
+  <div class="container headings text-center">
+    
+    <p class="text-center" style="color: black;"> YOU DIDN'T NOTICED THE NUMBERS COUNT DID YOU?</p>
+  </div>
+
+
+  <div class="container d-flex justify-content-around align-items-center text-center">
+    <div>
+      <h1  class="count" style="color: black;">85697</h1>
+      <p  style="color: black;">random numbers</p>
+    </div>
+     <div>
+      <h1 class="count" style="color: black;">874556149</h1>
+      <p  style="color: black;">random numbers</p>
+    </div>
+     <div>
+      <h1 class="count" style="color: black;">88749</h1>
+      <p  style="color: black;">random numbers</p>
+    </div>
+     <div>
+      <h1 class="count" style="color: black;">15587</h1>
+      <p  style="color: black;">random numbers</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- these links are pasted here so that loading time of websites can be reduced-->
+
+<script>
+  
+  $('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 9000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js">
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="pricing" id="pricingdiv">
+  <div class="container headings text-center">
+    <h1 class="text-center font-weight-bold" style="color:black; ">HOW MUCH</h1>
+    <p class="text-center" style="color: black;"> BEST </p>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-12">
+      <div class="card text-center" style="color: black;">
+        <div class="card-header">BASIC</div>
+        <div class="card-body">
+          
+          <li>$<span class="money">20</span>/web</li>
+          <li>hjhjbhjbkjbj.</li>
+          <li>gvhjgvvhjvvhjvjh</li>
+          <li>58866</li>
+          <li>MAINTAIN</li>
+        </div>
+        <div class="card-footer">
+          <a href="#">buy</a>
+        </div>
+      </div>
+
+
+
+
+    </div>
+    
+
+
+     <div class="col-lg-4 col-12">
+      <div class="card text-center" style="color: black;">
+        <div class="card-header">ADVANCE</div>
+        <div class="card-body">
+          
+          <li>$<span class="money">40</span>/web</li>
+          <li>WEB BUILD .</li>
+          <li>HTML CSS JS USE REUSE</li>
+          <li>ERROR SOLVING</li>
+          <li>MAINTAIN</li>
+        </div>
+        <div class="card-footer">
+          <a href="#">buy</a>
+        </div>
+      </div>
+
+
+
+
+    </div>
+    
+
+
+    <div class="col-lg-4 col-12">
+      <div class="card text-center" style="color: black;">
+        <div class="card-header">excellent</div>
+        <div class="card-body">
+          
+          <li>$<span class="money">80</span>/web</li>
+          <li>DESIGN.</li>
+          <li>DEVELOP</li>
+          <li>DEPLOY</li>
+          <li>MAINTAIN</li>
+        </div>
+        <div class="card-footer">
+          <a href="#">buy</a>
+        </div>
+      </div>
+
+
+
+
+    </div>
+    
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="contactus" id="contactid">
+  <div class="container headings text-center">
+    <h1 class="text-center font-weight-bold" style="color:black; ">CONTACT</h1>
+    <p class="text-center" style="color: black;"> we czan do things a lot of things really like a llt a lot</p>
+  </div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 col-1">
+
+<form action="/action_page.php" class="needs-validation" novalidate>
+  <div class="form-group">
+    <label for="uname" style="color: black;">Username:</label>
+    <input type="text" class="form-control" id="uname" placeholder="Enter email" name="uname" required>
+    <div class="valid-feedback">Valid.</div>
+    <div class="invalid-feedback">Please fill out this field.</div>
+  </div>
+  <div class="form-group">
+    <label for="pwd" style="color: black;">Password:</label>
+    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+    <div class="valid-feedback">Valid.</div>
+    <div class="invalid-feedback">Please fill out this field.</div>
+  </div>
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" name="remember" required> I agree on blabla.
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Check this checkbox to continue.</div>
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<script>
+// Disable form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Get the forms we want to add validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+
+
+
+
+
+
+
+
+      
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<section class="newsletter" id="contactid">
+  <div class="container headings text-center">
+    <h1 class="text-center font-weight-bold" style="color:black; ">NEWSLETTER</h1>
+    
+
+
+  </div>
+
+<div class="container">
+  <div class="row">
+    
+<div class="col-lgg-8 offset-lg-2 col-12">
+  <div class="input-group mb-4">
+    <input type="text" class="form-control" placeholder="Your Email">
+    <div class="input-group-append">
+      <span class="input-group-text">enter</span>
+    </div>
+  </div>
+</div>
+
+
+  </div>
+</div>
+
+</section>
+
+
+
+<section class="juk" id="jukid">
+  <div class="container headings text-center">
+    <h1 class="text-center font-weight-bold" style="color:black; ">TEAM</h1>
+    <p class="text-center" style="color: black;"> transparency insideout</p>
+  </div>
+
+
+<div class="container">
+
+
+      <div class="row d-flex">
+        <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+          <figure class="figure">
+            <img src="https://i1.sndcdn.com/artworks-000238834368-u7bclk-t500x500.jpg" class="figure-img img-fluid rounded-circle height="70px"
+            width="70px" ">
+            <figcaption>
+              <h4>Ml</h4>
+              <p>hellohello</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+          <figure class="figure">
+            <img src="https://www.fesliyanstudios.com/tagpictures/26.jpg" class="figure-img img-fluid rounded-circle height="70px"
+            width="70px" ">
+            <figcaption>
+              <h4 style="color: #ffe6e6" >xyz1</h4>
+              <p>hellohello</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+          <figure class="figure">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdESWqi9PBtLjDFk3tvUjdMjWRCsc6h2CLJNFPQ5O_oMew3BVd&usqp=CAU" class="figure-img img-fluid rounded-circle height="70px"
+            width="70px" ">
+            <figcaption>
+              <h4>A.I.@</h4>
+              <p>hellohello</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footersection" id="footerdiv">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-12 footer-div">
+        <div><h3 style="color: black;">
+          raghav khandelwal
+          <p style="color: black;">anything</p>
+        </h3></div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 footer-div">
+        <div><h3 style="color: black;">
+          links
+         
+        </h3>
+
+<li><a href="#">Home</a></li>
+<li><a href="#">Service</a></li>
+<li><a href="#">PRICE</a></li>
+<li><a href="#">contact</a></li>
+
+      </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-12 footer-div">
+        <div><h3 style="color: black;">
+          raghav khandelwal
+          <p style="color: black;">anything</p>
+        </h3></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scrolltop float-right">
+    <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
+  </div>
+
+</footer>
+</body>
+
+</html>
+
